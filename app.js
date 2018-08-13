@@ -1,4 +1,4 @@
-const kuna = require('./kuna');
+const kuna = require('./Kuna/kuna');
 
 
 
