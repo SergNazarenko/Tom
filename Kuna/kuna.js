@@ -1,8 +1,8 @@
 var TelegramBot = require('node-telegram-bot-api');
 const request = require('request');
 const show_crypto_course_dict = require('./kuna_dictionary');
-const constst = require('./consts');
-const config = require('./config');
+const constst = require('../Utils/consts');
+const config = require('../Utils/config');
 var bot = new TelegramBot(config.telegram_access_token, {polling: true});
 
 bot.on('message', (msg, match) => {
