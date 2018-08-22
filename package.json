@@ -1,5 +1,5 @@
 {
-    "name": "Tom",
+    "name": "tom",
     "version": "1.0.0",
     "description": "Telegram bot",
     "main": "app.js",
@@ -12,15 +12,10 @@
       "telegram",
       "telegram-bot"
     ],
-    "author": "Hannan Ali (abdulhannanali@outlook.com)",
+    "author": "Sergey Nazarenko (serh.nazarenko@gmail.com)",
     "license": "MIT",
     "dependencies": {
-      "express": "^4.13.4",
-      "gifs-api": "0.0.4",
       "node-telegram-bot-api": "^0.21.1",
-      "redis": "^2.5.3",
-      "request": "^2.69.0",
-      "string-template": "^1.0.0",
-      "wurl": "^2.1.0"
+      "request": "^2.69.0"
     }
   }
